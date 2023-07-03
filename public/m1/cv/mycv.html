@@ -18,32 +18,110 @@
     <header>
         <!-- <h1>Curriculum Vitae</h1> -->
         <h1 id="subh1">Silvia Tarsitano</h1>
-        <br>
     </header>
 
     <section>
         <img src="Audrey.png" width="20%" alt="Immagine del profilo" title="Immagine del profilo Silvia Tarsitano">
         <!-- <h2>Personal Information</h2> -->
-        <p class="info">Email: silviatarsitano22@gmail.com</p>
+        <p class="info">Email: <a href="mailto:silviatarsitano22@gmail.com">silviatarsitano22@gmail.com</a></p>
         <p class="info">Phone number: +39 3468096880</p>
         <p class="info">Address: Via Giovanni Schiavoni 2 20142 Milano</p>
-
-        <p class="info">LinkedIN: <a href=https://www.linkedin.com/in/silvia-tarsitano/>LinkedIn Page</a></p>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2799.5817593652337!2d9.171497374944606!3d45.43793173519294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c38a89f5fab9%3A0x33c069ac48ffaa71!2sVia%20Giovanni%20Schiavoni%2C%202%2C%2020142%20Milano%20MI!5e0!3m2!1sit!2sit!4v1684916601185!5m2!1sit!2sit"
+            width="300" height="200" style="border: 10px;;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p class="info">LinkedIN: <a href=https://www.linkedin.com/in/silvia-tarsitano>LinkedIn Page</a></p>
     </section>
-    <br>
+    
     <main>
         <h3>Education</h3>
         <p><span class="time">2020 - 2023</span> <br> Master Degree in Media Management, Minor Degree in Customer
             Experience and value - Università della Svizzera Italiana</p>
-        <p><span class="time">2015 - 2019</span> <br> Communication, Media and Advertising - Libera Università di Lingue e
-            Comunicazione IULM
+        <p><span class="time">2015 - 2019</span> <br> Communication, Media and Advertising - Libera Università di Lingue e Comunicazione IULM
         </p>
-        <p><span class=" time">2023 - 2023</span> <br> Code for future - Academy technology - Accenture</p>
+        <p><span class="time">2023 - 2023</span> <br> Code for future - Academy technology - Accenture</p>
 
-        <h3>Professional Experience</h3>
+        <h3 class="exp">Professional Experience</h3>
         <p><strong>06-2017 - 11/2017</strong> <br> Europ Assistance</p>
         <p><strong>03/2022 - today</strong> <br> Circular Lugano</p>
     </main>
+
+    <h4>Languages</h4>
+    <ul>
+        <li>Italian: Mothertongue</li>
+        <li>English: Advanced</li>
+        <li>Spanish: Intermediate</li>
+    </ul>
+
+    <h4 class="CodL">Coding languages</h4>
+    <table>
+        <thead>
+            <tr>
+                <th id="empty-cell"></th>
+                <th class="col">Basic</th>
+                <th class="col">Intermediate</th>
+                <th class="col">Advanced</th>
+            </tr>
+        </thead>
+        <tr id="n1">
+            <th scope="row">Java</th>
+            <td>&FilledSmallSquare;</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr id="n2">
+            <th scope="row">HTML</th>
+            <td>&FilledSmallSquare;</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr id="n3">
+            <th scope="row">CSS</th>
+            <td>&FilledSmallSquare;</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr id="n4">
+            <th scope="row">SQL</th>
+            <td>-</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tr>
+    </table>
+
+    <div class="msg"> You can contact me using the form below</div>
+    <form action="/test" method="post">
+        <div>
+            <input name="company" placeholder="Company">
+        </div>
+        <!-- <div>
+            <input name="pos" placeholder="Offered position">
+        </div> -->
+        <label><input type="checkbox" name="position" value="Java Developer" checked>Java Developer</label>
+        <label><input type="checkbox" name="position" value="HTML Developer">HTML Developer</label>
+        <label><input type="checkbox" name="position" value="Analyst">Analyst</label>
+        <div>
+            <input name="retr" placeholder="Offered retribution">
+        </div>
+        <div>
+            <input type="date" name="worktime"><span>Start date</span>
+        </div>
+        <select name="city">
+            <option value="Nessuna" selected>-</option>
+            <option value="Milano">Milano</option>
+            <option value="Roma">Roma</option>
+            <option value="Cosenza">Cosenza</option>
+        </select><span>City of work</span>
+        <div id="comment">
+            <textarea name="msg" cols="20" rows="10" placeholder="Write here you message"></textarea> </textarea>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+
+    </form>
+    <br>
     <br>
     <hr>
     <br>

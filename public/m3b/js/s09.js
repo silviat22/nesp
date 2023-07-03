@@ -1,10 +1,10 @@
 /**
- * The elements should be in the DOM!
+ * The elements should be in the DOM! deve essere eseguito quando il DOM è stato caricato
  */
 
-let target = document.getElementById('target');
+let target = document.getElementById('target'); //variabile target
 
-document.getElementById('backAdd').addEventListener('click', () => target.classList.add('back'));
+document.getElementById('backAdd').addEventListener('click', () => target.classList.add('back')); //aggiungere il tasto back alle classi(lista di classi() (in abse all'elemento backAdd?)
 document.getElementById('backRemove').addEventListener('click', () => target.classList.remove('back'));
 document.getElementById('foreToggle').addEventListener('click', () => target.classList.toggle('fore'));
 document.getElementById('borderReplace').addEventListener('click', () => {
@@ -18,3 +18,4 @@ document.getElementById('borderReplace').addEventListener('click', () => {
         target.classList.replace('borderC', 'borderA');        
     }
 });
+
